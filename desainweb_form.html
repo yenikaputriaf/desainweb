@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <title>form</title>
+<body>
+
+#box
+<h2>Masukkan Nama Anda</h2>
+<form action="/action_page.php">
+  <label for="fullname">Nama Lengkap: </label>
+  <br>
+  <input type="text" id="fullname" name="fullname" value="Nama Lengkap Anda">
+  <br>
+
+  <label for="bornplace">Tempat Lahir: </label>
+  <br>
+  <input type="text" id="bornplace" name="bornplace" value="Tempat Lahir Anda">
+  <br>
+
+  <input type="submit" value="Submit">
+</form>
+
+
+<br>
+<br>
+
+ #radio
+<h2>Pilih Member Favorit Anda: </h2>
+<form action="/action_page.php">
+  <input type="radio" id="jisoo" name="fav_memb" value="Jisoo">
+  <label for="jisoo">Kim Jisoo</label><br>
+  
+  <input type="radio" id="jennie" name="fav_memb" value="Jennie">
+  <label for="jennie">Kim Jennie</label><br>
+
+  <input type="radio" id="rose" name="fav_memb" value="Rose">
+  <label for="jennie">Roseane Chaeyoung Park</label><br>
+
+  <input type="radio" id="lisa" name="fav_memb" value="Lisa">
+  <label for="lisa">Lalisa Manoban</label><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<br>
+<br>
+
+#checkbox
+<h2>Pilih Perusahaan Yang Ingin Dinaungi: </h2>
+<form action="/action_page.php">
+  <input type="checkbox" id="ch1" name="ch1" value="Blissoo">
+  <label for="ch1">CEO of Blissoo</label><br>
+
+  <input type="checkbox" id="ch2" name="ch2" value="Odd Ateiler">
+  <label for="ch2">CEO of Odd Ateiler</label><br>
+
+  <input type="checkbox" id="ch3" name="ch3" value="Rosebrand">
+  <label for="ch3">CEO of Rosebrand</label><br>
+
+  <input type="checkbox" id="ch4" name="ch4" value="LLOUD">
+  <label for="ch4">CEO of LLOUD</label><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<br>
+<br>
+
+#select
+<h2>For Your Bias</h2>
+<p>Temukan bias anda:</p>
+<form action="/action_page.php" autocomplete="on">
+  <label for="cars">Pilih nama anggota:</label>
+  <select id="cars" name="cars">
+    <option value="jisoo">Jisoo</option>
+    <option value="jennie">Jennie</option>
+    <option value="rose">Rose</option>
+    <option value="lisa">Lisa</option>
+  </select>
+  <input type="submit">
+</form>
+
+</body>
+</html>
